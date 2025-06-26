@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>minha pagina Laize</title>
+    <style>
+       
+
+        
+
+        body
+
+        {background-color: #deaec1;
+            font-family: Arial, sans-serif;
+            padding: 20px;
+        }
+        h1{
+
+            color: rgba(60, 11, 83, 0.753);
+            text-align: center;
+        }
+        p{
+            font-size: 18px;
+            text-align: justify;
+
+
+        }
+        ul li{
+            margin-bottom: 10px;
+
+
+        }
+        table{
+            border-collapse: collapse;
+            width: 100%;
+            margin-top:20px;
+        }
+
+        table,th,td {
+
+            border: 1px solid #c2185b;
+            padding: 10px;
+            text-align: center;
+
+
+        
+        }
+
+  
+
+        tr:nth-child(even) {
+            background-color: #deaec1;
+        }
+
+        a {
+        color: #c2185b;
+        text-decoration: none;
+        font-weight: bold;
+    }
+
+    a:hover {
+        color: #880e4f;
+        text-decoration: underline;
+    }
+
+        img {
+            width: 150px;
+            height: auto;
+        }
+        table, td, th {
+            border: 1px solid black;
+            border-collapse: collapse;
+            padding: 10px;
+        }
+
+        button {
+        background-color: #f06292;
+        color:aliceblue;
+        padding: 10px 20px;
+        border: none;
+        border-radius: 8px;
+        font-size: 16px;
+        cursor: pointer;
+        margin-top: 10px;
+        transition: background-color 0.3s;
+
+    }
+    </style>
+</head>
+<body>
+    <h1>Laize Gabriely</h1>
+    <p>Olá,seja bem vido(a) a minha página,meu nome é Laize Gabriely e tenho 22 anos, trabalho como maquiadora e sou estudante de Análise e Desenvolvimento de Sistemas.</p>
+    
+        <button onclick="mostrarMensagem()">Clique para ver uma mensagem!</button>
+        <p id="mensagem"></p>
+    
+    <h2>meus hobbies</h2>
+    <ul>
+        <li>música</li>
+        <li>Assistir filmes</li>
+        <li>treinar</li>
+    </ul>
+
+    <h2>imagem de um dos hobbies</h2>
+   <img src="imgtreino.webp" alt="treino">
+
+   <h2>países que eu gostaria de visitar</h2>
+   <table>
+
+    <tr>
+        <th>Espanha</th>
+        <th><img src="espanha.jpg"  width="100" alt="Espanha"> </th>
+    </tr>
+    
+    <tr> 
+        <th>Japão</th>
+        <td><img src="japao.jpg"  width="100" alt="Japão"> </td>
+    </tr>
+    <tr>
+        <th>Noruega</th>
+        <th><img src="noruega.jpg"  width="100" alt="Noruega"> </th>
+    </tr>
+   </table>
+     <p>acesse o site que mais visito:
+        <a href="https://www.youtube.com">Youtube</a>
+
+    
+    </p>
+
+    <script>
+  function mostrarMensagem() {
+    document.getElementById("mensagem").textContent = "Seja bem-vindo(a) a minha página!";
+  }
+</script>
+
+
+
+
+
+</body>
+</html>
